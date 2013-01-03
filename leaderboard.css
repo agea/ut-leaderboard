@@ -60,3 +60,12 @@ body {
 .inc {
   cursor: pointer;
 }
+
+.kmatches{
+    position:fixed;
+    bottom:0;
+    right:0;
+    background: #444;
+    color: #ddd;
+    padding: 1em;
+}

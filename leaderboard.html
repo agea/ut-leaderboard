@@ -15,12 +15,25 @@
     {{/each}}
   </div>
 
+  <div class="kmatches">
+    {{#each kmatches}}
+      {{> kmatch}}
+    {{/each}}
+  </div>
+
 </template>
  
 <template name="player">
   <div class="player {{selected}}">
     <span class="name">{{name}}</span>
     <span class="score">{{score}}</span>
+  </div>
+</template>
+
+<template name="kmatch">
+  <div class="kmatch">
+    <span class="killer">{{killer}}</span>
+    <span class="victim">{{victim}}</span>
   </div>
 </template>
 
